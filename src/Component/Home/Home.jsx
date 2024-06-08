@@ -41,7 +41,7 @@ function Home()
                         <img src="/gitlogo.png" alt="" width="30px" height="30px" className="rounded-full" />
                     </div> */}
                     <div>
-                        <img src="https://drive.google.com/file/d/1spNv3GPIWiesqrnB8_yQBuinaJLKviP7/view?usp=sharing" alt="" width="200px" height="150px"
+                        <img src="https://drive.google.com/file/d/1spNv3GPIWiesqrnB8_yQBuinaJLKviP7/view" alt="" width="200px" height="150px"
                             className="rounded-b-lg rounded-t-3xl rounded-l-2xl" />
                     </div>
                     {/* <div>
