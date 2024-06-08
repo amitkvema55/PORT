@@ -59,7 +59,7 @@ function Home()
 
                 <div className=" flex flex-col items-center  justify-center mt-7  gap-8 md:flex-row">
                     <div className=" flex items-center">
-                        <img src="IMG_20230420_211734_369.jpg" alt="" width="200px" height="200px" className="rounded-full " />
+                        <img src="https://i.ibb.co/BsKqBgP/IMG-20230420-211734-369.jpg" alt="" width="200px" height="200px" className="rounded-full " />
                     </div>
                     <div className="w-5/6 px-10 py-20 text-white text-xl h-auto text-justify md:w-1/3">
                         <p>I am recent graduate from Bachleors in Science from Mathematics from Rakesh P.G. College Pilani(Rajsthan).
