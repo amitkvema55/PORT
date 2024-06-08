@@ -213,7 +213,7 @@ function Home()
 
                     <div className="mt-20 grid grid-cols-1 gap-y-6">
                         <div className="bg-blue-400 w-3/4 md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                            <img src="https://i.ibb.co/n0grgXN/emial.png" alt="" width="30px" height="30px" className="rounded-full" />
+                            <img src="https://i.ibb.co/59MTMQg/emial.png" alt="" width="30px" height="30px" className="rounded-full" />
                             <h2 className="text-white text-xl font-semibold">Email</h2>
                             <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
                         </div>
