@@ -114,7 +114,7 @@ function Home()
                     <div id="qulifiaction-container">
                         <div id="qulification-tabs" className="flex  w-3/4 mx-auto my-20 justify-around">
                             <button className="flex  justify-center items-center gap-5 text-white font-semibold text-xl active:text-blue-600">
-                                <img src="/degree logo.jpg" alt="" width="30px" height="30px" className="rounded-full" />
+                                <img src="https://i.ibb.co/yfZYDMj/degree-logo.jpg" alt="" width="30px" height="30px" className="rounded-full" />
                                 <span>Education</span>
                             </button>
 
