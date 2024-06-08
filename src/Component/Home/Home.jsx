@@ -41,7 +41,7 @@ function Home()
                         <img src="/gitlogo.png" alt="" width="30px" height="30px" className="rounded-full" />
                     </div> */}
                     <div>
-                        <img src='https://i.ibb.co/BsKqBgP/IMG-20230420-21' alt="" width="200px" height="150px"
+                        <img src='https://drive.google.com/file/d/1aSEdAaMbT9HCDt1cPGrIOYc7mgn63U69/view?usp=sharing' alt="" width="200px" height="150px"
                             className="rounded-b-lg rounded-t-3xl rounded-l-2xl" />
                     </div>
                     {/* <div>
@@ -59,7 +59,7 @@ function Home()
 
                 <div className=" flex flex-col items-center  justify-center mt-7  gap-8 md:flex-row">
                     <div className=" flex items-center">
-                        <img src="https://i.ibb.co/BsKqBgP/IMG-20230420-211734-369.jpg" alt="" width="200px" height="200px" className="rounded-full " />
+                        <img src="https://drive.google.com/file/d/1aSEdAaMbT9HCDt1cPGrIOYc7mgn63U69/view?usp=sharing" alt="" width="200px" height="200px" className="rounded-full " />
                     </div>
                     <div className="w-5/6 px-10 py-20 text-white text-xl h-auto text-justify md:w-1/3">
                         <p>I am recent graduate from Bachleors in Science from Mathematics from Rakesh P.G. College Pilani(Rajsthan).
