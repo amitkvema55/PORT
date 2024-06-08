@@ -9,8 +9,8 @@ function Home()
                     <ul className=" bg-zinc-800 flex gap-x-10 px-3 mx-auto rounded-md fixed  bottom-3 py-2 z-1 opacity-80">
                         <a href="#home"><img src="/home.png" alt="" width="30px" height="30px" className="rounded-full" /></a>
                         <a href="#about"><img src="https://i.ibb.co/c8c5mBP/ABOUT-ME.jpg" alt="" width="30px" height="30px" className="rounded-full" /></a>
-                        <a href="#skill"><img src="https://i.ibb.co/3r80qnx/skills.png"" alt="" width="30px" height="30px" className="rounded-full" /></a>
-                        <a href="#qualification"><img src="https://i.ibb.co/981VJf5/degree-logo.jpg" alt="" width="30px" height="30px" className="rounded-full"/></a>
+     <a href="#skill"><img src="https://i.ibb.co/3r80qnx/skills.png" alt="" width="30px" height="30px" className="rounded-full" /></a>
+    <a href="#qualification"><img src="https://i.ibb.co/981VJf5/degree-logo.jpg" alt="" width="30px" height="30px" className="rounded-full"/></a>
                         <a href="#projects"><img src="https://i.ibb.co/Rj8VBTt/projects.png" alt="" width="30px" height="30px" className="rounded-full" /> </a>
                     </ul>
 
