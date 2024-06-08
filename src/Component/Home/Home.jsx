@@ -8,8 +8,8 @@ function Home()
                 <nav className="w-1/2 mx-auto flex justify-center ">
                     <ul className=" bg-zinc-800 flex gap-x-10 px-3 mx-auto rounded-md fixed  bottom-3 py-2 z-1 opacity-80">
                         <a href="#home"><img src="/home.png" alt="" width="30px" height="30px" className="rounded-full" /></a>
-                        <a href="#about"><img src="/ABOUT ME.jpeg.jpeg" alt="" width="30px" height="30px" className="rounded-full" /></a>
-                        <a href="#skill"><img src="/skills.png" alt="" width="30px" height="30px" className="rounded-full" /></a>
+                        <a href="#about"><img src="https://i.ibb.co/c8c5mBP/ABOUT-ME.jpg" alt="" width="30px" height="30px" className="rounded-full" /></a>
+                        <a href="#skill"><img src="https://i.ibb.co/3r80qnx/skills.png"" alt="" width="30px" height="30px" className="rounded-full" /></a>
                         <a href="#qualification"><img src="https://i.ibb.co/981VJf5/degree-logo.jpg" alt="" width="30px" height="30px" className="rounded-full"/></a>
                         <a href="#projects"><img src="https://i.ibb.co/Rj8VBTt/projects.png" alt="" width="30px" height="30px" className="rounded-full" /> </a>
                     </ul>
@@ -213,7 +213,7 @@ function Home()
 
                     <div className="mt-20 grid grid-cols-1 gap-y-6">
                         <div className="bg-blue-400 w-3/4 md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                            <img src="" alt="" width="30px" height="30px" className="rounded-full" />
+                            <img src="https://i.ibb.co/n0grgXN/emial.png" alt="" width="30px" height="30px" className="rounded-full" />
                             <h2 className="text-white text-xl font-semibold">Email</h2>
                             <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
                         </div>
