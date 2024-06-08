@@ -27,7 +27,7 @@ function Home()
 
                 <div className="flex justify-center gap-4 mt-11">
 
-                        <a href="/Amit _Resume_813.pdf" target="blank" className='bg-blue-500 px-3 py-2 rounded-lg text-2xl text-white'>DownLoad CV</a>
+                        <a href="https://i.ibb.co/CmB7f9d/Amit-Resume-813.jpg" target="blank" className='bg-blue-500 px-3 py-2 rounded-lg text-2xl text-white'>DownLoad CV</a>
 
                  
                     {/* <!-- <button className="bg-transparent text-blue-400 border-2 border-blue-400 px-4 rounded-md hover:bg-slate-50">Lets
