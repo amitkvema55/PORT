@@ -210,7 +210,7 @@ function Home()
 
                 <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
                     <h1  className='text-2xl font-bold'>Amit Kumar</h1>
-                    <div className='flex flex-wrap justify-around mt-4  gap-2 text-2xl'>
+                    <div className='flex flex-wrap justify-around mt-4  gap-4 text-2xl'>
                     <a href="#home">Home </a>
                     <a href="#about">About </a>
                     <a href="#skill">Skills</a>
