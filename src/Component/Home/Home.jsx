@@ -145,7 +145,7 @@ function Home()
                             </p>
                         </div>
 
-                        <div className=" box-border w-4/5 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16  rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
+                        <div className=" box-border w-4/5  h-1/2 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16  rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
                             <h1 className="text-center text-white font-bold text-2xl  ">Weather App</h1>
                             <p className="text-white text-justify font-medium">
                                 In this I use HTML,CSS and Javascript.In this I use skills of using ApI Handling
