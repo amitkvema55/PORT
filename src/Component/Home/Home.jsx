@@ -83,42 +83,18 @@ function Home()
                                 <article>HTML</article>
                                 <article>CSS</article>
                                 <article>Javascript</article>
-                                {/* <!-- <article>Tailwind</article>
-                    <article>React JS</article>
-                    <article>Next js</article> --> */}
+                               
                             </div>
                         </div>
 
-                        {/* <!-- <div className="w-4/5 h-full bg-slate-700 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
-                <h1 className="text-blue-400 mt-5 text-2xl font-semibold text-center">
-                    Bank End Development</h1>
-                <div className="grid grid-cols-2 gap-9 text-white font-semibold p-20 ">
-                    <article>HTML</article>
-                    <article>CSS</article>
-                    <article>Javascript</article>
-                    <article>Tailwind</article>
-                    <article>React JS</article>
-                    <article>Next js</article>
-                </div>
-            </div> --> */}
+                      
                     </div>
 
 
                 </div>
                
 
-                        {/* <!-- <div className="w-4/5 h-full bg-slate-700 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
-                <h1 className="text-blue-400 mt-5 text-2xl font-semibold text-center">
-                    Bank End Development</h1>
-                <div className="grid grid-cols-2 gap-9 text-white font-semibold p-20 ">
-                    <article>HTML</article>
-                    <article>CSS</article>
-                    <article>Javascript</article>
-                    <article>Tailwind</article>
-                    <article>React JS</article>
-                    <article>Next js</article>
-                </div>
-            </div> --> */}
+                      
                     </div>
 
 
