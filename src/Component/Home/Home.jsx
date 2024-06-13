@@ -122,7 +122,7 @@ function Home()
                     </div>
 
 
-                </div>
+               
 
                 {/* <!-- qualification --> */}
                   <div className='mt-10  border-x-black w-2/3 mx-auto ' id="qualifications">
