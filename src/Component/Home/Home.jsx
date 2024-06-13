@@ -194,7 +194,7 @@ function Home()
 
 
                     </div>
-                </div
+                </div>
     
                 <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
                     <h1  className='text-2xl font-bold'>Amit Kumar</h1>
