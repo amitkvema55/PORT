@@ -79,7 +79,7 @@ function Home()
                         <div className="w-4/5 h-full bg-slate-700 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
                             <h1 className="text-blue-400 mt-5 text-2xl font-semibold text-center">
                                 Front End Development</h1>
-                            <div className="grid grid-cols-2 gap-9 text-white font-semibold p-20 ">
+                            <div className="grid grid-cols-2 gap-8 text-white font-semibold p-8">
                                 <article>HTML</article>
                                 <article>CSS</article>
                                 <article>Javascript</article>
@@ -88,6 +88,24 @@ function Home()
                     <article>Next js</article> --> */}
                             </div>
                         </div>
+
+                        {/* <!-- <div className="w-4/5 h-full bg-slate-700 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
+                <h1 className="text-blue-400 mt-5 text-2xl font-semibold text-center">
+                    Bank End Development</h1>
+                <div className="grid grid-cols-2 gap-9 text-white font-semibold p-20 ">
+                    <article>HTML</article>
+                    <article>CSS</article>
+                    <article>Javascript</article>
+                    <article>Tailwind</article>
+                    <article>React JS</article>
+                    <article>Next js</article>
+                </div>
+            </div> --> */}
+                    </div>
+
+
+                </div>
+               
 
                         {/* <!-- <div className="w-4/5 h-full bg-slate-700 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
                 <h1 className="text-blue-400 mt-5 text-2xl font-semibold text-center">
@@ -188,7 +206,7 @@ function Home()
 
                     <div className="mt-20 grid grid-cols-1 gap-y-6">
                         <div className="bg-blue-400 w-4/5 md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                            <img src="https://drive.google.com/file/d/1Uxyn9B0EHU0C7pzDn-5stlPQKOiz0ZOF/view" alt="" width="30px" height="30px" className="rounded-full" />
+                            <img src="https://i.ibb.co/RgKNJbb/emial.png"  width="30px" height="30px" className="rounded-full" />
                             <h2 className="text-white text-xl font-semibold">Email</h2>
                             <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
                         </div>
@@ -199,8 +217,8 @@ function Home()
                 <h2 className="text-white font-bold text-xs  md:text-2xl">amitkverma551@gmail.com</h2>
             </div> --> */}
 
-                        <div className="bg-blue-400 w-4/5  md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                            <img src="https://drive.google.com/drive/u/0/home" alt="" width="30px" height="30px" className="rounded-full" />
+                        <div>
+                            <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt="call" border="0" className="rounded-full">
                             <h2 className="text-white text-xl font-semibold">Call</h2>
                             <h2 className="text-white font-bold text-w md:text-2xl">9461240856</h2>
                         </div>
