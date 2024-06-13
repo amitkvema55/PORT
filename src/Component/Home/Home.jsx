@@ -61,7 +61,7 @@ function Home()
                     <div className=" flex items-center">
                         <img src="https://i.ibb.co/TrSpQ4M/IMG-20230420-211734-369.jpg" alt="" width="200px" height="200px" className="rounded-full " />
                     </div>
-                    <div className="w-5/6 px-10 py-20 text-white text-xl h-auto text-justify md:w-1/3">
+                    <div className="w-11/12 px-5 py-20 text-white text-xl h-auto text-justify md:w-1/3">
                         <p>I am recent graduate from Bachleors in Science from Mathematics from Rakesh P.G. College Pilani(Rajsthan).
                             Being a Mathematics student i have a good skills to solve problems in a optimized ways.
                             Apart from problem solving skill  i have relent skills as  front End Developer to code.
