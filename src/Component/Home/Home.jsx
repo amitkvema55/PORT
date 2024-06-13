@@ -1,114 +1,104 @@
 import React from 'react'
 
-function Home() 
-{
-    return (
-        <>
-            <div classname="box-border">
-                <nav className="w-1/2 mx-auto flex justify-center ">
-                    <ul className=" bg-zinc-800 flex gap-x-10 px-3 mx-auto rounded-md fixed  bottom-0 py-2 z-1 opacity-80">
+function Home() {
+  return (
+    <div className="">
+         <nav className="w-1/2 mx-auto flex justify-center ">
+    <ul className=" bg-zinc-800 flex gap-x-10 px-3 mx-auto rounded-md fixed  bottom-3 py-2 z-1 opacity-80">
+
+    <ul className=" bg-zinc-800 flex gap-x-10 px-3 mx-auto rounded-md fixed  bottom-0 py-2 z-1 opacity-80">
                         <a href="#home"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOsYUkLlFXgGXvrlyivL7-zpvV3EM4Ynz7Mg&s" alt="" width="30px" height="30px" className="rounded-full" /></a>
                         <a href="#about"><img src="https://i.ibb.co/c8c5mBP/ABOUT-ME.jpg" alt="" width="30px" height="30px" className="rounded-full" /></a>
                        <a href="#skill"><img src="https://i.ibb.co/3r80qnx/skills.png" alt="" width="30px" height="30px" className="rounded-full" /></a>
                        <a href="#qualification"><img src="https://i.ibb.co/981VJf5/degree-logo.jpg" alt="" width="30px" height="30px" className="rounded-full"/></a>
                         <a href="#projects"><img src="https://i.ibb.co/Rj8VBTt/projects.png" alt="" width="30px" height="30px" className="rounded-full" /> </a>
                     </ul>
+      
+    </ul>
+    
+   </nav>
 
-                </nav>
+    {/* <!-- INTRODUCTION --> */}
+    <div className="flex  flex-col items-center mt-20" id="home">
+        <p className="text-white font-semibold mb-6">Hello I am</p>
+        <h1 className="text-5xl text-white font-bold mb-5">Amit Kumar</h1>
+        <p className="text-xl text-white">A Fronted End Student </p>
+    </div>
 
-                {/* <!-- INTRODUCTION --> */}
-                <div className="flex  flex-col items-center mt-20" id="home">
-                    <p className="text-white font-semibold mb-6">Hello I am</p>
-                    <h1 className="text-5xl text-white font-bold mb-5">Amit Kumar</h1>
-                    <p className="text-xl text-white">A Fronted End Student </p>
-                </div>
+    {/* <!-- DOWNLOAD AND CV --> */}
 
-                {/* <!-- DOWNLOAD AND CV --> */}
-
-                <div className="flex justify-center gap-4 mt-11">
+    <div className="flex justify-center gap-4 mt-11">
 
                         <a href="https://drive.google.com/file/d/1suO1dHB-YzbnKLOsgyR0RwVdna5zCjIA/view" target="blank" className='bg-blue-500 px-3 py-2 rounded-lg text-2xl text-white'>DownLoad CV</a>
 
                  
-                    {/* <!-- <button className="bg-transparent text-blue-400 border-2 border-blue-400 px-4 rounded-md hover:bg-slate-50">Lets
-            Talk</button> --> */}
+                    
+   
                 </div>
-                {/* <!-- 
+    {/* <!-- 
  photo and side bar --> */}
-                <div className="flex justify-around mt-20">
-                    {/* <div className="flex flex-col gap-5 mt-5 ">
-                        <img src="/linkdein.png" alt="" width="30px" height="30px" className="rounded-full" />
-                        <img src="/gitlogo.png" alt="" width="30px" height="30px" className="rounded-full" />
-                    </div> */}
-                    <div>
-                        <img src="https://i.ibb.co/TrSpQ4M/IMG-20230420-211734-369.jpg" alt="" width="200px" height="150px"
+    <div className="flex justify-around mt-20">
+        
+        <div>
+        <img src="https://i.ibb.co/TrSpQ4M/IMG-20230420-211734-369.jpg" alt="" width="200px" height="150px"
                             className="rounded-b-lg rounded-t-3xl rounded-l-2xl" />
-                    </div>
-                    {/* <div>
-                        <button><img src="/scrooll logo.jpeg" alt="" width="60px" height="60px" className="rounded-full" /></button>
-                    </div> */}
+        </div>
+        
+    </div>
+
+    {/* <!-- about me head --> */}
+    <div className="flex flex-col items-center mt-20" id="about">
+        <p className="text-gray-500">Get to Know</p>
+        <h1 className="text-blue-400 text-4xl font-semibold">About me</h1>
+    </div>
+
+    {/* <!-- about details --> */}
+
+    <div className=" flex flex-col items-center  justify-center mt-7  gap-8 md:flex-row">
+        <div className=" flex items-center">
+        <img src="https://i.ibb.co/TrSpQ4M/IMG-20230420-211734-369.jpg" alt="" width="200px" height="150px"
+                            className="rounded-b-lg rounded-t-3xl rounded-l-2xl" />
+        </div>
+        <div className="w-5/6 px-10 py-20 text-white text-xl h-auto text-justify md:w-1/2">
+            <p>I am recent graduate from Bachleors in Science from Mathematics from Rakesh P.G. College Pilani(Rajsthan).
+                Being a Mathematics student i have a good skills to solve problems in a optimized ways.
+                Apart from problem solving skill  i have relent skills as  front End Developer to code.
+            </p>
+          
+       </div>
+    </div>
+
+    {/* <!-- worked skils head --> */}
+    <div className="" id="skill">
+        <h5 className="text-center text-gray-700">I have worked on these</h5>
+        <h2 className="text-center text-blue-500 text-3xl font-semibold mb-14">Skills</h2>
+        <div className="grid gap-5 grid-cols-1 items-center justify-items-center md:grid-cols-2">
+            <div className="w-4/5 h-full bg-slate-500 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
+                <h1 className="text-blue-700 mt-5 text-2xl font-semibold text-center">
+                    Front End Development</h1>
+                <div className="grid grid-cols-2 gap-9 text-white font-semibold p-20 ">
+                    <article>HTML</article>
+                    <article>CSS</article>
+                    <article>Javascript</article>
+                   
                 </div>
+            </div>
 
-                {/* <!-- about me head --> */}
-                <div className="flex flex-col items-center mt-20" id="about">
-                    <p className="text-gray-500">Get to Know</p>
-                    <h1 className="text-blue-400 text-4xl font-semibold">About me</h1>
-                </div>
-
-                {/* <!-- about details --> */}
-
-                <div className=" flex flex-col items-center  justify-center mt-7  gap-8 md:flex-row">
-                    <div className=" flex items-center">
-                        <img src="https://i.ibb.co/TrSpQ4M/IMG-20230420-211734-369.jpg" alt="" width="200px" height="200px" className="rounded-full " />
-                    </div>
-                    <div className="w-11/12 px-5 py-20 text-white text-xl h-auto text-justify md:w-1/3">
-                        <p>I am recent graduate from Bachleors in Science from Mathematics from Rakesh P.G. College Pilani(Rajsthan).
-                            Being a Mathematics student i have a good skills to solve problems in a optimized ways.
-                            Apart from problem solving skill  i have relent skills as  front End Developer to code.
-                        </p>
-                        {/* <!-- <button className="bg-blue-500 mt-4 px-4 py-2 rounded-md font-700  text-xl text-black  hover:bg-yellow-50"> Lets
-                Talk</button> --> */}
-                    </div>
-                </div>
-
-                {/* <!-- worked skils head --> */}
-                <div className="" id="skill">
-                    <h5 className="text-center text-gray-500">I have worked on these</h5>
-                    <h2 className="text-center text-blue-500 text-3xl font-semibold mb-14">Skills</h2>
-                    <div className="grid gap-5 grid-cols-1 items-center justify-items-center md:grid-cols-2">
-                        <div className="w-4/5 h-full bg-slate-700 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
-                            <h1 className="text-blue-400 mt-5 text-2xl font-semibold text-center">
-                                Front End Development</h1>
-                            <div className="grid grid-cols-2 gap-8 text-white font-semibold p-8">
-                                <article>HTML</article>
-                                <article>CSS</article>
-                                <article>Javascript</article>
-                               
-                            </div>
-                        </div>
-
-                      
-                    </div>
+            
+        </div>
 
 
-                </div>
-               
+    </div>
 
-                      
-                    </div>
-
-
-               
-
-                {/* <!-- qualification --> */}
-                  <div className='mt-10  border-x-black w-2/3 mx-auto ' id="qualifications">
+      {/* <!-- qualification --> */}
+      <div className='mt-10  border-x-black w-2/3 mx-auto ' id="qualifications">
                     <div className='text-gray-500 font-semibold text-xl'>My Personal Journey</div>
                     <h1 className='text-2xl font-bold text-white sm:text-3xl sm:text-red-900'>Education</h1>
                     <div className= " flex flex-col mt-10 text-white sm: relative h-52 gap-10 sm:block">
                         <div className="sm:absolute sm:left-0 sm:top-0">
                             <h1 className='text-xl font-semibold sm:text-2xl sm:font-bold'>Bachelor of Science</h1>
                             <h2 className='text-xl font-semibold sm:text-2xl sm:font-bold'>Rakesh P.G College</h2>
-                            <h3 className='text-xl font-semibold sm:text-2xl sm:font-bold'>2020-2024</h3>
+                            <h3 className='text-xl  text-gray-500 font-semibold sm:text-2xl sm:font-bold'>2020-2024</h3>
                             
                         </div>
                         <div className="sm:absolute sm:bottom-0 sm:right-0">
@@ -118,13 +108,11 @@ function Home()
                         </div>
                     </div>
                 </div>
-                
-                
 
 
+    {/* <!-- Projects --> */}
 
-                {/* <!-- Projects --> */}
-                <div className="mt-44 h-auto" id="projects">
+    <div className="mt-44 h-auto" id="projects">
                     <div className="text-center">
                         <h4 className="text-gray-400 font-normal">My Recent Works</h4>
                         <h1 className="text-blue-500 text-3xl font-bold">Projects</h1>
@@ -158,19 +146,43 @@ function Home()
                         </div>
 
 
-                        {/* <div className="w-4/5  flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16 rounded-lg hover:bg-transparent hover:border-2 border-blue-400">
-                            <h1 className="text-center text-white font-bold text-2xl mb-8 ">NetflixClone</h1>
-                            <p className="text-white text-justify font-medium">In this i use and learn about basics css and javacsript we which hold.</p>
-                            <a href="https://netflixott.netlify.app" target='__blank' className="text-2xl text-white bg-blue-500 px-4  py-2 rounded-md">View Site</a>
-                        </div> */}
+                       
 
                     </div>
                 </div>
-     
 
-                
-        
-                <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
+    {/* <!-- get in TOUCH --> */}
+
+    <div className="text-center mt-12 flex justify-center flex-col contact" id="contact">
+        <div>
+        <h4 className="text-grey-400">Get in Touch</h4>
+        <h2 className="text-blue-400 font-bold text-2xl">Contact me</h2>
+
+         </div>
+
+        <div className="mt-20 grid grid-cols-1 gap-y-6">
+            <div className="bg-blue-400 w-3/4 md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
+                <img src="https://i.ibb.co/RgKNJbb/emial.png" alt="" width="30px" height="30px" className="rounded-full"/>
+                <h2 className="text-white text-xl font-semibold">Email</h2>
+                <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
+            </div>
+
+            
+
+            <div className="bg-blue-400 w-3/4  md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
+                <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt="" width="30px" height="30px" className="rounded-full"/>
+                <h2 className="text-white text-xl font-semibold">Call</h2>
+                <h2 className="text-white font-bold text-xs md:text-2xl">9461240856</h2>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    {/* <!-- footer --> */}
+
+    <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
                     <h1  className='text-2xl font-bold'>Amit Kumar</h1>
                     <div className='flex flex-wrap justify-around mt-4  gap-4 text-2xl'>
                     <a href="#home">Home </a>
@@ -183,15 +195,9 @@ function Home()
                 </footer>
 
 
-               
-                    
 
-            </div>
-
-        </>
-      )
-        }
-    
-
+    </div>
+  )
+}
 
 export default Home
