@@ -130,7 +130,6 @@ function Home()
 
 
                 {/* <!-- Projects --> */}
-
                 <div className="mt-44 h-auto" id="projects">
                     <div className="text-center">
                         <h4 className="text-gray-400 font-normal">My Recent Works</h4>
@@ -138,28 +137,29 @@ function Home()
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2">
-                        <div className=" box-border w-4/5 mx-auto my-10 bg-blue-900 p-16 box-border rounded-lg hover:bg-transparent hover:border-2 border-blue-400">
+                        <div className="w-11/12 mx-auto my-10 bg-blue-900 p-8 rounded-lg hover:bg-transparent hover:border-2 border-blue-400 sm:p-16 sm:w-4/5">
                             <h1 className="text-center text-white font-bold text-2xl mb-8  ">My PortFolio</h1>
                             <p className="text-white text-justify font-medium">
                                 This is my profile Website.I have create this website using HTML,CSS and Tailwind and fundamental of Reacts.
                             </p>
                         </div>
 
-                        <div className=" box-border w-4/5  h-1/2 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16  rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
+                        <div className="w-11/12 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-8 rounded-lg hover:bg-transparent hover:border-2 border-blue-400  sm:p-16 sm:w-4/5">
                             <h1 className="text-center text-white font-bold text-2xl  ">Weather App</h1>
                             <p className="text-white text-justify font-medium">
                                 In this I use HTML,CSS and Javascript.In this I use skills of using ApI Handling
                             </p>
-                            <a href="https://weathe-rapp.netlify.app"  target='__blank' className="text-xl text-white w-1/2 bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
+                            <a href="https://weathe-rapp.netlify.app"  target='__blank' className="text-2xl text-white bg-blue-500 px-4  py-2 rounded-md">View Site</a>
 
                         </div>
 
-                        <div className=" box-border w-4/5 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16  rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
+                        <div className="w-11/12 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-8 rounded-lg hover:bg-transparent hover:border-2 border-blue-400 
+                        sm:p-16 sm:w-4/5 ">
                             <h1 className="text-center text-white font-bold text-2xl  ">Ecommerce Store</h1>
                             <p className="text-white text-justify font-medium">
                                This Project is made by ReactJs . In this project I use basics concept of React-Router and Redux Toolkit and etc.
                             </p>
-                            <a href="https://apnaishop.netlify.app" target='__blank' className="text-xl  w-1/2 text-white bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
+                            <a href="https://apnaishop.netlify.app" target='__blank' className="text-2xl text-white bg-blue-500 px-4  py-2 rounded-md">View Site</a>
 
                         </div>
 
@@ -172,6 +172,11 @@ function Home()
 
                     </div>
                 </div>
+
+              
+
+
+                      
 
                 {/* <!-- get in TOUCH --> */}
 
