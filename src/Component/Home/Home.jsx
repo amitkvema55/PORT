@@ -107,7 +107,7 @@ function Home()
                 </div>
 
                 {/* <!-- qualification --> */}
-                  <div className='mt-10  border-x-black w-2/3 mx-auto '>
+                  <div className='mt-10  border-x-black w-2/3 mx-auto ' id="qualifications">
                     <div className='text-gray-500 font-semibold text-xl'>My Personal Journey</div>
                     <h1 className='text-2xl font-bold text-white sm:text-3xl sm:text-red-900'>Education</h1>
                     <div className= " flex flex-col mt-10 text-white sm: relative h-52 gap-10 sm:block">
@@ -216,7 +216,7 @@ function Home()
                         <a href="#" className="hover:text-white text-xl font-sembold" >Home</a>
                         <a href="#about" className="hover:text-white text-xl font-sembold">About</a>
                         <a href="#skill" className="hover:text-white text-xl font-sembold">Skills</a>
-                        <a href="#qualification" className="hover:text-white text-xl font-sembold">Qualifications</a>
+                        <a href="#qualifications" className="hover:text-white text-xl font-sembold">Qualifications</a>
                         <a href="#projects" className="hover:text-white text-xl font-sembold">Projects</a>
                         <a href="#contact" className="hover:text-white text-xl font-sembold">Contact</a>
 
