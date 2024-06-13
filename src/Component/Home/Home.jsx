@@ -166,11 +166,7 @@ function Home()
 
                     </div>
                 </div>
-
-              
-
-
-                      
+     
 
                 {/* <!-- get in TOUCH --> */}
                 <div className="text-center mt-12 flex justify-center flex-col contact" id="contact">
@@ -186,15 +182,8 @@ function Home()
                             <h2 className="text-white text-xl font-semibold">Email</h2>
                             <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
                         </div>
-
-                        {/* <!-- <div className="bg-blue-400 w-3/4 md:w-3/5 m-auto flex flex-col items-center p-10  rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                <img src="/WHAUSIP.png" alt="" width="30px" height="30px" className="rounded-full">
-                <h2 className="text-white text-xl font-semibold">WhatsUp</h2>
-                <h2 className="text-white font-bold text-xs  md:text-2xl">amitkverma551@gmail.com</h2>
-            </div> --> */}
-
                         <div>
-                            <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt call  className="rounded-full">
+                            <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt call  className="rounded-full" />
                             <h2 className="text-white text-xl font-semibold">Call</h2>
                             <h2 className="text-white font-bold text-w md:text-2xl">9461240856</h2>
                         </div>
