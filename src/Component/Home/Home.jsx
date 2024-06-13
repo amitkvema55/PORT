@@ -9,8 +9,8 @@ function Home()
                     <ul className=" bg-zinc-800 flex gap-x-10 px-3 mx-auto rounded-md fixed  bottom-0 py-2 z-1 opacity-80">
                         <a href="#home"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOsYUkLlFXgGXvrlyivL7-zpvV3EM4Ynz7Mg&s" alt="" width="30px" height="30px" className="rounded-full" /></a>
                         <a href="#about"><img src="https://i.ibb.co/c8c5mBP/ABOUT-ME.jpg" alt="" width="30px" height="30px" className="rounded-full" /></a>
-     <a href="#skill"><img src="https://i.ibb.co/3r80qnx/skills.png" alt="" width="30px" height="30px" className="rounded-full" /></a>
-    <a href="#qualification"><img src="https://i.ibb.co/981VJf5/degree-logo.jpg" alt="" width="30px" height="30px" className="rounded-full"/></a>
+                       <a href="#skill"><img src="https://i.ibb.co/3r80qnx/skills.png" alt="" width="30px" height="30px" className="rounded-full" /></a>
+                       <a href="#qualification"><img src="https://i.ibb.co/981VJf5/degree-logo.jpg" alt="" width="30px" height="30px" className="rounded-full"/></a>
                         <a href="#projects"><img src="https://i.ibb.co/Rj8VBTt/projects.png" alt="" width="30px" height="30px" className="rounded-full" /> </a>
                     </ul>
 
@@ -169,29 +169,25 @@ function Home()
      
 
                 {/* <!-- get in TOUCH --> */}
-                <div className="text-center mt-12 flex justify-center flex-col contact" id="contact">
+        <div className="text-center mt-12 flex justify-center flex-col contact" id="contact">
                     <div>
                         <h4 className="text-grey-400">Get in Touch</h4>
                         <h2 className="text-blue-400 font-bold text-2xl">Contact me</h2>
-
                     </div>
 
                     <div className="mt-20 grid grid-cols-1 gap-y-6">
                         <div className="bg-blue-400 w-4/5 md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                            <img src="https://i.ibb.co/RgKNJbb/emial.png" alt="email" width="30px" height="30px" className="rounded-full" />
+                            <img src="https://i.ibb.co/RgKNJbb/emial.png" alt="email" width="30px" height="30px" className="rounded-full"/>
                             <h2 className="text-white text-xl font-semibold">Email</h2>
                             <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
                         </div>
                         <div>
-                            <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt call  className="rounded-full" />
+                            <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt call  className="rounded-full"/>
                             <h2 className="text-white text-xl font-semibold">Call</h2>
                             <h2 className="text-white font-bold text-w md:text-2xl">9461240856</h2>
                         </div>
-
-
-
-                    </div>
-                </div>
+                   </div>
+         </div>
 
 
               
