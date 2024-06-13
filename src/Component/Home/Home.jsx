@@ -150,7 +150,7 @@ function Home()
                             <p className="text-white text-justify font-medium">
                                 In this I use HTML,CSS and Javascript.In this I use skills of using ApI Handling
                             </p>
-                            <a href="https://weathe-rapp.netlify.app"  target='__blank' className="text-xl text-white w-2/5 max-w-1/2 bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
+                            <a href="https://weathe-rapp.netlify.app"  target='__blank' className="text-xl text-white w-1/2 bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
 
                         </div>
 
@@ -159,7 +159,7 @@ function Home()
                             <p className="text-white text-justify font-medium">
                                This Project is made by ReactJs . In this project I use basics concept of React-Router and Redux Toolkit and etc.
                             </p>
-                            <a href="https://apnaishop.netlify.app" target='__blank' className="text-xl   w-2/5  max-w-1/2 text-white bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
+                            <a href="https://apnaishop.netlify.app" target='__blank' className="text-xl  w-1/2 text-white bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
 
                         </div>
 
@@ -210,7 +210,7 @@ function Home()
 
                 <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
                     <h1  className='text-2xl font-bold'>Amit Kumar</h1>
-                    <div className='flex flex-wrap justify-around mt-4 text-2xl'>
+                    <div className='flex flex-wrap justify-around mt-4  gap-2 text-2xl'>
                     <a href="#home">Home </a>
                     <a href="#about">About </a>
                     <a href="#skill">Skills</a>
