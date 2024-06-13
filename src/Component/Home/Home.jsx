@@ -138,14 +138,14 @@ function Home()
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2">
-                        <div className="w-4/5 mx-auto my-10 bg-blue-900 p-16 box-border rounded-lg hover:bg-transparent hover:border-2 border-blue-400">
+                        <div className=" box-border w-4/5 mx-auto my-10 bg-blue-900 p-16 box-border rounded-lg hover:bg-transparent hover:border-2 border-blue-400">
                             <h1 className="text-center text-white font-bold text-2xl mb-8  ">My PortFolio</h1>
                             <p className="text-white text-justify font-medium">
                                 This is my profile Website.I have create this website using HTML,CSS and Tailwind and fundamental of Reacts.
                             </p>
                         </div>
 
-                        <div className="w-4/5 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16 box-border rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
+                        <div className=" box-border w-4/5 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16  rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
                             <h1 className="text-center text-white font-bold text-2xl  ">Weather App</h1>
                             <p className="text-white text-justify font-medium">
                                 In this I use HTML,CSS and Javascript.In this I use skills of using ApI Handling
@@ -154,7 +154,7 @@ function Home()
 
                         </div>
 
-                        <div className="w-4/5 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16 box-border rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
+                        <div className=" box-border w-4/5 flex flex-col  gap-y-10 mx-auto my-10 bg-blue-900 p-16  rounded-lg hover:bg-transparent hover:border-2 border-blue-400 ">
                             <h1 className="text-center text-white font-bold text-2xl  ">Ecommerce Store</h1>
                             <p className="text-white text-justify font-medium">
                                This Project is made by ReactJs . In this project I use basics concept of React-Router and Redux Toolkit and etc.
