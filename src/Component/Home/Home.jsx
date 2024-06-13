@@ -168,7 +168,7 @@ function Home()
                 </div>
      
 
-                {/* <!-- get in TOUCH --> */}
+                
             <div className="text-center mt-12 flex justify-center flex-col contact" id="contact">
                     <div>
                         <h4 className="text-grey-400">Get in Touch</h4>
@@ -194,12 +194,7 @@ function Home()
 
 
                     </div>
-                </div>
-
-       
-
-            {/* <!-- footer --> */}
-
+                </div
     
                 <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
                     <h1  className='text-2xl font-bold'>Amit Kumar</h1>
