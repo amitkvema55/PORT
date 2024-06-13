@@ -169,33 +169,7 @@ function Home()
      
 
                 
-            <div className="text-center mt-12 flex justify-center flex-col contact" id="contact">
-                    <div>
-                        <h4 className="text-grey-400">Get in Touch</h4>
-                        <h2 className="text-blue-400 font-bold text-2xl">Contact me</h2>
-
-                    </div>
-
-                    <div className="mt-20 grid grid-cols-1 gap-y-6">
-                        <div className="bg-blue-400 w-4/5 md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                            <img src="https://drive.google.com/file/d/1Uxyn9B0EHU0C7pzDn-5stlPQKOiz0ZOF/view" alt="" width="30px" height="30px" className="rounded-full" />
-                            <h2 className="text-white text-xl font-semibold">Email</h2>
-                            <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
-                        </div>
-
-                        
-
-                        <div className="bg-blue-400 w-4/5  md:w-3/5 m-auto flex flex-col items-center p-10 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400">
-                            <img src="https://drive.google.com/drive/u/0/home" alt="" width="30px" height="30px" className="rounded-full" />
-                            <h2 className="text-white text-xl font-semibold">Call</h2>
-                            <h2 className="text-white font-bold text-w md:text-2xl">9461240856</h2>
-                        </div>
-
-
-
-                    </div>
-                </div>
-    
+        
                 <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
                     <h1  className='text-2xl font-bold'>Amit Kumar</h1>
                     <div className='flex flex-wrap justify-around mt-4  gap-4 text-2xl'>
