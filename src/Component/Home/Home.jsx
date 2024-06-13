@@ -208,28 +208,21 @@ function Home()
 
                 {/* <!-- footer --> */}
 
-
-                <footer className="bg-indigo-500 rounded-md mt-10 flex flex-col justify-center items-center gap-y-10 ">
-                    <h1 className=" hover:text-white text-4xl font-bold">Amit Kumar</h1>
-
-                    <div className="grid grid-cols-1  w-3/4 mx-auto gap-2  my-3 md:grid-cols-6 md:gap-4" >
-                        <a href="#" className="hover:text-white text-xl font-sembold" >Home</a>
-                        <a href="#about" className="hover:text-white text-xl font-sembold">About</a>
-                        <a href="#skill" className="hover:text-white text-xl font-sembold">Skills</a>
-                        <a href="#qualifications" className="hover:text-white text-xl font-sembold">Qualifications</a>
-                        <a href="#projects" className="hover:text-white text-xl font-sembold">Projects</a>
-                        <a href="#contact" className="hover:text-white text-xl font-sembold">Contact</a>
-
-
+                <footer className='bg-violet-500 text-white p-10 gap-2 mt-10 rounded-md'>
+                    <h1  className='text-2xl font-bold'>Amit Kumar</h1>
+                    <div className='flex  justify-around mt-4 text-2xl'>
+                    <a href="#home">Home </a>
+                    <a href="#about">About </a>
+                    <a href="#skill">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#qualifications"> Qualifications</a>
+                    <a href="#contact">Contact</a>
                     </div>
-
-                    {/* <div className="grid gap-5 grid-cols-3 w-1/4 mx-auto my-2 ">
-                        <img src="/linkdein.png" alt="" width="30px" height="30px" className="rounded-full" />
-                        <img src="/gitlogo.png" alt="" width="30px" height="30px" className="rounded-full" />
-                        <img src="/stack overflow.png" alt="" width="30px" height="30px" className="rounded-full" />
-
-                    </div> */}
                 </footer>
+
+
+               
+                    
 
             </div>
 
