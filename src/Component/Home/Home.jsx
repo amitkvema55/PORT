@@ -182,7 +182,7 @@ function Home()
                             <h2 className="text-white font-bold text-xs md:text-2xl">amitkverma551@gmail.com</h2>
                         </div>
                         <div>
-                            <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt call  className="rounded-full"/>
+                            <img src="https://i.ibb.co/8B2QNX6/call.jpg" alt="call"  className="rounded-full"/>
                             <h2 className="text-white text-xl font-semibold">Call</h2>
                             <h2 className="text-white font-bold text-w md:text-2xl">9461240856</h2>
                         </div>
