@@ -68,15 +68,15 @@ function Home() {
        </div>
     </div>
 
-    {/* <!-- worked skils head --> */}
+   {/* <!-- worked skils head --> */}
     <div className="" id="skill">
         <h5 className="text-center text-gray-700">I have worked on these</h5>
         <h2 className="text-center text-blue-500 text-3xl font-semibold mb-14">Skills</h2>
         <div className="grid gap-5 grid-cols-1 items-center justify-items-center md:grid-cols-2">
-            <div className="w-4/5 h-full bg-slate-500 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 md:w-3/4">
+            <div className="w-11/12 h-full bg-slate-500 rounded-md hover:bg-transparent hover:border-2 hover:border-blue-400 sm:w-4/5">
                 <h1 className="text-blue-700 mt-5 text-2xl font-semibold text-center">
                     Front End Development</h1>
-                <div className="grid grid-cols-2 gap-9 text-white font-semibold p-20 ">
+                <div className="grid grid-cols-2 gap-9 text-white font-semibold p-7 sm:p-20">
                     <article>HTML</article>
                     <article>CSS</article>
                     <article>Javascript</article>
