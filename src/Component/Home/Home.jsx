@@ -14,7 +14,6 @@ function Home() {
                         <a href="#projects"><img src="https://i.ibb.co/Rj8VBTt/projects.png" alt="" width="30px" height="30px" className="rounded-full" /> </a>
                     </ul>
       
-    </ul>
     
    </nav>
 
