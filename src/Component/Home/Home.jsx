@@ -107,55 +107,26 @@ function Home()
                 </div>
 
                 {/* <!-- qualification --> */}
-
-                <div id="qualification" className="text-center mt-16 s">
-                    <h5 className="text-gray-500 ">My Personal Journey</h5>
-                    <h1 className="text-blue-500  text-2xl font-semibold">Qualifications</h1>
-                    <div id="qulifiaction-container">
-                        <div id="qulification-tabs" className="flex  w-3/4 mx-auto my-20 justify-around">
-                            <button className="flex  justify-center items-center gap-5 text-white font-semibold text-xl active:text-blue-600">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5GZ4d3GPJo0fQqK64gKOaSE8iruiMbQwfiA&s" alt="" width="30px" height="30px" className="rounded-full" />
-                                <span>Education</span>
-                            </button>
-
-                            {/* <!-- <button className="flex  justify-center items-center gap-5 text-white font-semibold text-xl active:text-blue-600">
-                    <img src="/work logo.png" alt="" width="30px" height="30px" className="rounded-full">
-                    <span>Work</span>
-                </button> --> */}
+                  <div className='mt-10  border-x-black w-2/3 mx-auto '>
+                    <div className='text-gray-500 font-semibold text-xl'>My Personal Journey</div>
+                    <h1 className='text-2xl font-bold text-white sm:text-3xl sm:text-red-900'>Education</h1>
+                    <div className= " flex flex-col mt-10 text-white sm: relative h-52 gap-10 sm:block">
+                        <div className="sm:absolute sm:left-0 sm:top-0">
+                            <h1 className='text-xl font-semibold sm:text-2xl sm:font-bold'>Bachelor of Science</h1>
+                            <h2 className='text-xl font-semibold sm:text-2xl sm:font-bold'>Rakesh P.G College</h2>
+                            <h3 className='text-xl font-semibold sm:text-2xl sm:font-bold'>2020-2024</h3>
+                            
                         </div>
-                        {/* <!-- EDUCATION --> */}
-                        <div id="qulification-section">
-                            <div id="education" className=" w-3/4 mx-auto h-auto gap-1 flex flex-col">
-                                <div className=" text-left w-2/5  ml-20 flex justify-around">
-                                    <div>
-                                        <h2 className="text-white font-semibold text-xl">Bachlors of Science-</h2>
-                                        <h2 className="text-white font-semibold text-xl">Rakesh P.G.College</h2>
-                                        <h3 className=" text-gray-600 font-semibold">2020-2024</h3>
-                                    </div>
-
-                                    <div className="flex flex-col items-center justify-center">
-                                        <span className="inline-block w-3 h-3 bg-blue-600 rounded-md"></span>
-                                        <span className="block w-1 h-full bg-blue-600 "> </span>
-                                        <span className="inline-block w-3 h-3 bg-blue-600 rounded-md"></span>
-
-
-                                    </div>
-                                </div>
-
-                                <div className=" w-1/2 mx-auto text-right">
-
-                                    <div>
-                                        <h2 className="text-white font-semibold text-xl">Senior Secondary(Maths)</h2>
-                                        <h2 className="text-white font-semibold text-xl">Jeevani International School</h2>
-                                        <h3 className=" text-gray-600 font-semibold">2017-2018</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- <div id="work"></div> --> */}
+                        <div className="sm:absolute sm:bottom-0 sm:right-0">
+                            <h1 className='text-xl font-semibold sm:text-2xl sm:font-bold'>Higher Senior Secondary</h1>
+                            <h2 className='text-xl font-semibold sm:text-2xl sm:font-bold' >Jeeveni International School</h2>
+                            <h3 className='text-gray-500'>2017-2018</h3>
                         </div>
                     </div>
-
                 </div>
+                
+                
+
 
 
                 {/* <!-- Projects --> */}
