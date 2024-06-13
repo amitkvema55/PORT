@@ -150,7 +150,7 @@ function Home()
                             <p className="text-white text-justify font-medium">
                                 In this I use HTML,CSS and Javascript.In this I use skills of using ApI Handling
                             </p>
-                            <a href="https://weathe-rapp.netlify.app"  target='__blank' className="text-xl text-white bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
+                            <a href="https://weathe-rapp.netlify.app"  target='__blank' className="text-xl text-white w-1/3 max-w-1/2 bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
 
                         </div>
 
@@ -159,7 +159,7 @@ function Home()
                             <p className="text-white text-justify font-medium">
                                This Project is made by ReactJs . In this project I use basics concept of React-Router and Redux Toolkit and etc.
                             </p>
-                            <a href="https://apnaishop.netlify.app" target='__blank' className="text-xl text-white bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
+                            <a href="https://apnaishop.netlify.app" target='__blank' className="text-xl   w-1/3 max-w-1/2 text-white bg-blue-500 px-4  py-2 rounded-md sm:2xl">View Site</a>
 
                         </div>
 
